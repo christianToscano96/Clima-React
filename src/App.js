@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 //componentes
 import Header from './components/Header';
 import Formulario from './components/Formulario';
 
 function App() {
 
+  //State principal
+  //ciudad = state, guardarCiudad = this.setState()
+  const [ ciudad , guardarCiudad  ] = useState ('');
+  const [ pais , guardarPais ] = useState ('');
+
   const datosConsulta = datos => {
-    console.log(datos);
+    
+    //validar que ambos campos esten 
+    if(datos.ciudad === '' || datos.pais === '') {
+      return;
+    }
+
+    //ciudad y pais existen, agregarlos al state
+    guardarCiudad(datos.ciudad);
+    guardarPais(datos.pais);
   }
 
   return (
