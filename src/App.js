@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Formulario from './components/Formulario';
 import Error from './components/Error';
+import ResultadoClima from './components/ResultadoClima';
 
 function App() {
 
@@ -65,7 +66,9 @@ function App() {
     componente = <Error mensaje ='Ambos campos son obligatorios' />
   } else {
     //mostrar clima
-    componente = null;
+    componente = <ResultadoClima 
+                  resultado={resultado}
+                  />;
   }
 
   return (
