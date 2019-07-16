@@ -1,3 +1,22 @@
+<h1>Buscador de Clima React.js </h1>
+Una aplicación que te permitirá saber el clima de tu ciudad consumiendo una API externa y implementando react Hooks
+
+<div align="center"> 
+     <img width="45%" src="img1.png" alt="About screen" title="About screen"</img> 
+     <img height="0" width="8px"> 
+     
+</div> 
+<div align="center"> 
+     <img width="45%" src="img2.png" alt="About screen" title="About screen"</img> 
+     <img height="0" width="8px"> 
+     
+</div> 
+<div align="center"> 
+     <img width="45%" src="img3.png" alt="About screen" title="About screen"</img> 
+     <img height="0" width="8px"> 
+     
+</div> 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
