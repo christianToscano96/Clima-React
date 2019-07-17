@@ -2,15 +2,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .header {
-  background: #5C258D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 nav .brand-logo {
@@ -46,9 +46,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 
 .contenedor-form {
   padding: 3rem 0 1px 0;
-  background: #5C258D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .buscador i {
